@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  display: flex;
+}
+.heading-title {
+  margin-left: 8px;
+}
+
+.search-btn {
+  display: inline-block;
+}
+
+.search-box {
+  height: 36px;
+  font-size: 15px;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  width: 300px;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+
+.search-btn {
+  height: 40px;
+  margin-top: 20px;
+}
+
+.info {
+  text-align: center;
+}
